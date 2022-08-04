@@ -152,6 +152,7 @@ header .contenedor-texto .texto .profesion {
 .main .trabajos .contenedor-trabajos .trabajo {
     width: 23%;
     margin-bottom: 40px;
+    text-decoration: none;
 }
 
 .main .trabajos .contenedor-trabajos .trabajo:hover {
@@ -183,6 +184,7 @@ header .contenedor-texto .texto .profesion {
 .main .trabajos .contenedor-trabajos .trabajo .descripcion .explicacion {
     font-size: 0.7em;
     padding: 0 10px;
+    color: gray;
 }
 
 .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
@@ -200,6 +202,18 @@ header .contenedor-texto .texto .profesion {
 
 .css {
     color: #2c90ff;
+}
+
+.bootstrap {
+    color: #563d7c;
+}
+
+.node {
+    color: #6cc24a;
+}
+
+.angular {
+    color: #b52e31;
 }
 
 /* ----- ----- FOOTER ----- ----- */
