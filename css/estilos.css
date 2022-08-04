@@ -154,6 +154,11 @@ header .contenedor-texto .texto .profesion {
     margin-bottom: 40px;
 }
 
+.main .trabajos .contenedor-trabajos .trabajo:hover {
+    transform: scale(0.9);
+    transition: .3s ease;
+}
+
 .main .trabajos .contenedor-trabajos .trabajo .thumb {
     width: 100%;
     margin-bottom: 10px;
@@ -175,9 +180,26 @@ header .contenedor-texto .texto .profesion {
     margin-bottom: 10px;
 }
 
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .explicacion {
+    font-size: 0.7em;
+    padding: 0 10px;
+}
+
 .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
-    font-size: 14px;
-    color: #5A5A5A;
+    font-size: 25px;
+    /*color: #5A5A5A;*/
+}
+
+.html {
+    color: #e34f26;
+}
+
+.js {
+    color: #f7df1e;
+}
+
+.css {
+    color: #2c90ff;
 }
 
 /* ----- ----- FOOTER ----- ----- */
