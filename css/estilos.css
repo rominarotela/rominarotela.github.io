@@ -302,3 +302,17 @@ footer .redes-sociales .linkedin:hover { background: #0077b5; }
         padding: 20px 0;
     }
 }
+
+@media screen and (max-width: 416px) {
+    header .menu a {
+        font-size: 0.8em;
+    }
+
+    header .contenedor-texto .texto .nombre {
+        font-size: 30px;
+    }
+
+    header .contenedor-texto .texto .profesion {
+        font-size: 20px;
+    }
+}
